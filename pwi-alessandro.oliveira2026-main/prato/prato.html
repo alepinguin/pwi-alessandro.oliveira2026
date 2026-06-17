@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1> Cardápio do Dia</h1>
+        <button onclick="mostrarPratos()">
+            Mostrar cárdapio
+        </button>
+        <div id="resultado"></div>
+        <button onclick="mostrarBebidas()">
+            Mostrar Bebidas
+        </button>
+        <div id="resultado1"></div>
+
+        <label for="consultar"></label>
+        <input type="search" id="consulta" placeholder="faça seu pedido">
+         <button onclick="consultar()">
+            Consultar
+        </button>
+        <div id="resultado2"></div>
+        <h1>Participe do nosso sorteio</h1>
+        <button onclick="sortear()">
+            Sortear
+        </button>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
